@@ -1,6 +1,6 @@
 # Table of contents
 
-* [xinmin](README.md)
+* [Table of Contents](README.md)
 * [book](book/README.md)
   * [bin-to-csv](book/bin-to-csv.md)
   * [centos7+shadowsocks+bbr](book/centos7+shadowsocks+bbr.md)
