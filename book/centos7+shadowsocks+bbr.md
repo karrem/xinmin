@@ -1,6 +1,8 @@
 # centos7+shadowsocks+bbr
 
-## 搭建 bbr 服务
+## Centos7搭建ss+bbr加速
+
+#### 搭建 bbr 服务
 
 * 使用root用户登录，运行以下命令：
 
@@ -24,7 +26,7 @@
 # lsmod | grep bbr
 ```
 
-## 搭建 Shadowsocks 服务
+#### 搭建 Shadowsocks 服务
 
 * 安装组件
 

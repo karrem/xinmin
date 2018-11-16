@@ -1,5 +1,7 @@
 # bin-to-csv
 
+## 数据保存为二进制文件并导出csv文件
+
 ```c
 static double dataPtr[1000];
 static double csvdataPtr[1000];
