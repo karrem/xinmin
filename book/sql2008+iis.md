@@ -1,7 +1,3 @@
----
-description: sql2008数据库跟IIS备份以及还原
----
-
 # sql2008 and iis
 
 1. 数据库安装：[https://jingyan.baidu.com/article/948f592434b407d80ef5f97d.html](https://jingyan.baidu.com/article/948f592434b407d80ef5f97d.html)
