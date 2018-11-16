@@ -1,2 +1,6 @@
-# xinmin
-Xin Min's blog
+---
+description: Personal notes
+---
+
+# Table of Contents
+
