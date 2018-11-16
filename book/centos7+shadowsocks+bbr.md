@@ -36,9 +36,6 @@ description: Centos7搭建ss+bbr加速
 # yum install m2crypto python-setuptools
 # easy_install pip
 # pip install shadowsocks
-1
-2
-3
 # yum install m2crypto python-setuptools
 # easy_install pip
 # pip install shadowsocks
