@@ -1,4 +1,8 @@
-# shu-pai-xian-shi-datav-kan-ban
+---
+description: 树莓派显示datav看版
+---
+
+# datav + Raspberry Pi
 
 * 不用时候隐藏鼠标
 
