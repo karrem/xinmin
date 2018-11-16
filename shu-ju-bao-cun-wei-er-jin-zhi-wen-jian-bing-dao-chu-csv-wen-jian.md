@@ -1,9 +1,5 @@
 # 数据保存为二进制文件并导出csv文件
 
-## Getting Super Powers
-
-Becoming a super hero is a fairly straight forward process:
-
 ```c
 static double dataPtr[1000];
 static double csvdataPtr[1000];
@@ -112,17 +108,4 @@ if (pFilec != NULL)
     fclose(pFilec);
 }
 ```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-
-
 
