@@ -1,8 +1,4 @@
----
-description: 数据保存为二进制文件并导出csv文件
----
-
-# bin to csv
+# bin-to-csv
 
 ```c
 static double dataPtr[1000];
