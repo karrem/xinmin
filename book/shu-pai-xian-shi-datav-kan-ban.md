@@ -1,4 +1,4 @@
-# 树莓派显示datav看板
+# shu-pai-xian-shi-datav-kan-ban
 
 * 不用时候隐藏鼠标
 
