@@ -2,4 +2,5 @@
 
 * [目录](README.md)
 * [Centos7搭建ss+bbr加速](centos7-da-jian-ss+bbr-jia-su.md)
+* [树莓派显示datav看板](shu-pai-xian-shi-datav-kan-ban.md)
 
