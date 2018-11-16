@@ -1,3 +1,7 @@
+---
+description: 树莓派显示datav看板
+---
+
 # 树莓派显示datav看板
 
 * 不用时候隐藏鼠标
