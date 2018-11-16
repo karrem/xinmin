@@ -1,7 +1,3 @@
----
-description: 海外服务器搭建ss说明
----
-
 # Centos7搭建ss+bbr加速
 
 #### 搭建 bbr 服务

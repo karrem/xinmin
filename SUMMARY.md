@@ -1,5 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [目录](README.md)
 * [Centos7搭建ss+bbr加速](centos7-da-jian-ss+bbr-jia-su.md)
 
