@@ -35,18 +35,18 @@ if (access(Path, 0) == 0) {  //存在
     FILE *pFile = NULL;
     pFile = fopen(Path, "rb+");
     if (pFile != NULL)
-	{
+    {
 
         fread(&rows, sizeof(int), 1, pFile);
         fread(&dataPtr[0], sizeof(double), 2*rows, pFile);  
         debug_printf("tip=%s\n", "read");
         fclose(pFile);
-	}
+    }
     debug_printf("rows=%d\n", rows);
     FILE *pFile1 = NULL;
     pFile1 = fopen(Path, "wb+");
     if (pFile1 != NULL)
-	{
+    {
         if (rows >= 500) {
             rows = 500;
             memmove(&dataPtr[2], &dataPtr[0], sizeof(double)*(2*(rows-1)));
@@ -55,7 +55,7 @@ if (access(Path, 0) == 0) {  //存在
             memmove(&dataPtr[2], &dataPtr[0], sizeof(double)*(2*rows));
         }
         dataPtr[0] = (double)$system.CurDateTime;
-    	dataPtr[1] = (double)$data.重量读取值;
+        dataPtr[1] = (double)$data.重量读取值;
         debug_printf("tip=%s\n", "write");
         fwrite(&rows, sizeof(int), 1, pFile1);
         fwrite(&dataPtr, sizeof(double), 2*rows, pFile1);
@@ -65,14 +65,14 @@ if (access(Path, 0) == 0) {  //存在
     FILE *pFile2 = NULL;
     pFile2 = fopen(Path, "wb+");
     if (pFile2 != NULL)
-	{
-		dataPtr[0] = (double)$system.CurDateTime;
+    {
+        dataPtr[0] = (double)$system.CurDateTime;
         dataPtr[1] = (double)$data.重量读取值;
         debug_printf("tip=%s\n", "new"); 
         rows = 1;
         fwrite(&rows, sizeof(int), 1, pFile2);
-		fwrite(&dataPtr, sizeof(double), 2, pFile2);
-		fclose(pFile2);
+        fwrite(&dataPtr, sizeof(double), 2, pFile2);
+        fclose(pFile2);
     }
 }
 
@@ -99,7 +99,7 @@ if (pFilec != NULL)
             //strcat(csv, vcsv);  
             if (pFile3 != NULL)
             {
-        	   fwrite(&vcsv, sizeof(vcsv), 1, pFile3);
+               fwrite(&vcsv, sizeof(vcsv), 1, pFile3);
             }
             debug_printf("vcsv=%s\n", vcsv);  
             //debug_printf("csv=%s\n", csv);   

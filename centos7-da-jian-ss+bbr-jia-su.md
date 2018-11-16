@@ -1,8 +1,8 @@
 # Centos7搭建ss+bbr加速
 
-#### 搭建 bbr 服务
+## 搭建 bbr 服务
 
-*  使用root用户登录，运行以下命令：
+* 使用root用户登录，运行以下命令：
 
 ```bash
 # wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
@@ -18,13 +18,13 @@
 # uname -r
 ```
 
-*  查看BBR是否启用，输入以下命令：
+* 查看BBR是否启用，输入以下命令：
 
 ```bash
 # lsmod | grep bbr
 ```
 
-#### 搭建 Shadowsocks 服务
+## 搭建 Shadowsocks 服务
 
 * 安装组件
 
@@ -95,6 +95,4 @@ systemctl start firewalld
 # 后台运行    
 ssserver -c /etc/shadowsocks.json -d start
 ```
-
-
 
