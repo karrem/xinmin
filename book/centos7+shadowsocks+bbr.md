@@ -1,3 +1,7 @@
+---
+description: Centos7搭建ss+bbr加速
+---
+
 # centos7+Shadowsocks+bbr
 
 ## 搭建 bbr 服务
