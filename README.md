@@ -1,5 +1,5 @@
 ---
-description: 个人笔记
+description: Personal notes
 ---
 
 # Table of Contents
