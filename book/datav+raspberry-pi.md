@@ -2,6 +2,18 @@
 
 ## 树莓派显示datav看版
 
+* 安装汉语输入法
+
+```bash
+# sudo apt-get install ibus ibus-pinyin
+```
+
+* 设置密码
+
+```bash
+# sudo passwd
+```
+
 * 不用时候隐藏鼠标
 
 ```bash
@@ -28,8 +40,3 @@ Exec = chromium-browser --disable-popup-blocking --no-first-run --disable-deskto
 * 设置显示屏长亮，请参考：[https://blog.csdn.net/u011720560/article/details/78288128](https://blog.csdn.net/u011720560/article/details/78288128)
 * 系统时间矫正，请参考：[https://blog.csdn.net/github\_38111866/article/details/76057237](https://blog.csdn.net/github_38111866/article/details/76057237)
 
-* 安装汉语输入法
-
-```bash
-# sudo apt-get install ibus ibus-pinyin
-```
